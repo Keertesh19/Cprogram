@@ -14,10 +14,10 @@ while(1)
 	switch(mint)
 	{
 		case '1':
-		    	printf("Welcome %s, You choose %c. \nThis program is about printing the same digit you will enter. \n", name, mint);
-		    	printf("Enter a digit: ");
-		    	scanf("%d", &a);
-		    	printf("You entered %d. \nThank You! \n", a);
+		    	       printf("Welcome %s, You choose %c. \nThis program is about printing the same digit you will enter. \n", name, mint);
+		    	       printf("Enter a digit: ");
+		    	       scanf("%d", &a);
+		    	       printf("You entered %d. \nThank You! \n", a);
 		break;
 		case '2':
 				printf("Welcome %s, You choose %c. \nThis program will tell you whether the number you entered is odd or even. \n", name, mint);
@@ -36,17 +36,17 @@ while(1)
 		case '3':
 				printf("Welcome %s, You choose %c. \nThis program will simply print K 10 times.\n", name, mint);
 				for(c=1;c<=10;c++)
-		    	{
+		    	        {
 				printf("K \n");
 				}
 				printf("\nThank You! \n");
 		break;
 		default:
-			printf("Welcome %s, Value you enetered is out of range given.\n", name);
+			        printf("Welcome %s, Value you enetered is out of range given.\n", name);
 	}
-			printf("If you want to terminate then press 0 and if you want to continue press 1.");
-			printf("\nPlease choose b/w 1 & 0: ", nam);
-			scanf("%s", &nam);
+			        printf("If you want to terminate then press 0 and if you want to continue press 1.");
+			        printf("\nPlease choose b/w 1 & 0: ", nam);
+			        scanf("%s", &nam);
 		switch(nam)
 	{
 		case '1':
@@ -60,10 +60,10 @@ while(1)
 					switch(mint)
 					{
 					case '1':
-		        		printf("Welcome %s, You choose %c. \nThis program is about printing the same digit you will enter. \n", name, mint);
-		    			printf("Enter a digit: ");
-		    			scanf("%d", &a);
-		    			printf("You entered %d. \nThank You! \n", a);
+		        		       printf("Welcome %s, You choose %c. \nThis program is about printing the same digit you will enter. \n", name, mint);
+		    			       printf("Enter a digit: ");
+		    			       scanf("%d", &a);
+		    			       printf("You entered %d. \nThank You! \n", a);
 					break;
 					case '2':
 						printf("Welcome %s, You choose %c. \nThis program will tell you whether the number you entered is odd or even. \n", name, mint);
@@ -82,13 +82,13 @@ while(1)
 					case '3':
 						printf("Welcome %s, You choose %c. \nThis program will simply print K 10 times.\n", name, mint);
 						for(c=1;c<=10;c++)
-		    			{
+		    			        {
 						printf("K \n");
 						}
 						printf("\nThank You! \n");
 					break;
 					default:
-					printf("Welcome %s, Value you enetered is out of range given.\n", name);
+					        printf("Welcome %s, Value you enetered is out of range given.\n", name);
 					}	
 		break;
 		case '0':
